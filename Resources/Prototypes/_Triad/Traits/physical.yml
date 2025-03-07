@@ -7,3 +7,16 @@
   cost: 3
   grantsCategorySlots:
     LanguageTraits: 1
+
+# Added freezerburnt trait so that all of you 300 year old popsicles can identify each other for seniors night
+
+- type: trait
+  id: FreezerBurnt
+  name: trait-freezer-burnt-name
+  description: trait-freezer-burnt-desc
+  category: Physical
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: SelfAware
