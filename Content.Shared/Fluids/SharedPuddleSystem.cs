@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Reagent;
@@ -11,14 +12,22 @@ using Content.Shared.StepTrigger.Components;
 using Content.Shared.Atmos;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Containers;
 
 namespace Content.Shared.Fluids;
 
 public abstract partial class SharedPuddleSystem : EntitySystem
 {
     [Dependency] private IPrototypeManager _prototypeManager = default!;
+    [Dependency] private SharedAppearanceSystem _appearance = default!;
     [Dependency] private SharedSolutionContainerSystem _solutionContainerSystem = default!;
     [Dependency] private SharedDoAfterSystem _doAfterSystem = default!;
+
+    private static readonly ProtoId<ReagentPrototype> Blood = "Blood";
+    private static readonly ProtoId<ReagentPrototype> Slime = "Slime";
+    private static readonly ProtoId<ReagentPrototype> CopperBlood = "CopperBlood";
+
+    private static readonly string[] StandoutReagents = [Blood, Slime, CopperBlood];
 
     /// <summary>
     /// The lowest threshold to be considered for puddle sprite states as well as slipperiness of a puddle.
@@ -34,11 +43,22 @@ public abstract partial class SharedPuddleSystem : EntitySystem
         SubscribeLocalEvent<DumpableSolutionComponent, CanDropTargetEvent>(OnDumpCanDropTarget);
         SubscribeLocalEvent<DrainableSolutionComponent, CanDropTargetEvent>(OnDrainCanDropTarget);
         SubscribeLocalEvent<RefillableSolutionComponent, CanDropDraggedEvent>(OnRefillableCanDropDragged);
+
+        SubscribeLocalEvent<PuddleComponent, SolutionContainerChangedEvent>(OnSolutionUpdate);
         SubscribeLocalEvent<PuddleComponent, GetFootstepSoundEvent>(OnGetFootstepSound);
         SubscribeLocalEvent<PuddleComponent, ExaminedEvent>(HandlePuddleExamined);
         SubscribeLocalEvent<PuddleComponent, TileFireEvent>(OnPuddleBurn);
+        SubscribeLocalEvent<PuddleComponent, EntRemovedFromContainerMessage>(OnEntRemoved);
 
         InitializeSpillable();
+    }
+
+    protected virtual void OnSolutionUpdate(Entity<PuddleComponent> entity, ref SolutionContainerChangedEvent args)
+    {
+        if (args.SolutionId != entity.Comp.SolutionName)
+            return;
+
+        UpdateAppearance((entity, entity.Comp));
     }
 
     private void OnRefillableCanDrag(Entity<RefillableSolutionComponent> entity, ref CanDragEvent args)
@@ -122,7 +142,68 @@ public abstract partial class SharedPuddleSystem : EntitySystem
                 out var solution))
             return;
         _solutionContainerSystem.BurnFlammableReagents(ent.Comp.Solution.Value, 0.05f);
+    }
 
+    // Workaround for https://github.com/space-wizards/space-station-14/pull/35314
+    private void OnEntRemoved(Entity<PuddleComponent> ent, ref EntRemovedFromContainerMessage args)
+    {
+        // Make sure the removed entity was our contained solution and clear our cached reference
+        if (args.Entity == ent.Comp.Solution?.Owner)
+            ent.Comp.Solution = null;
+    }
+
+    private void UpdateAppearance(Entity<PuddleComponent?, AppearanceComponent?> ent)
+    {
+        var (uid, puddle, appearance) = ent;
+        if (!Resolve(ent, ref puddle, ref appearance))
+            return;
+
+        var volume = FixedPoint2.Zero;
+        var color = Color.White;
+
+        if (_solutionContainerSystem.ResolveSolution(uid,
+                puddle.SolutionName,
+                ref puddle.Solution,
+                out var solution))
+        {
+            volume = solution.Volume / puddle.OverflowVolume;
+
+            // Make blood stand out more
+            // Kinda EH
+            // Could potentially do alpha per-solution but future problem.
+
+            color = solution.GetColorWithout(_prototypeManager, StandoutReagents);
+            color = color.WithAlpha(0.7f);
+
+            foreach (var standout in StandoutReagents)
+            {
+                var quantity = solution.GetTotalPrototypeQuantity(standout);
+                if (quantity <= FixedPoint2.Zero)
+                    continue;
+
+                var interpolateValue = quantity.Float() / solution.Volume.Float();
+                color = Color.InterpolateBetween(color,
+                    _prototypeManager.Index<ReagentPrototype>(standout).SubstanceColor,
+                    interpolateValue);
+            }
+        }
+
+        _appearance.SetData(ent, PuddleVisuals.CurrentVolume, volume.Float(), appearance);
+        _appearance.SetData(ent, PuddleVisuals.SolutionColor, color, appearance);
+    }
+
+    public void DoTileReactions(TileRef tileRef, Solution solution)
+    {
+        for (var i = solution.Contents.Count - 1; i >= 0; i--)
+        {
+            var (reagent, quantity) = solution.Contents[i];
+            var proto = _prototypeManager.Index<ReagentPrototype>(reagent.Prototype);
+            var removed = proto.ReactionTile(tileRef, quantity, EntityManager, reagent.Data);
+            if (removed <= FixedPoint2.Zero)
+                continue;
+
+            solution.RemoveReagent(reagent, removed);
+        }
     }
 
     #region Spill
