@@ -23,11 +23,7 @@ public abstract partial class SharedPuddleSystem : EntitySystem
     [Dependency] private SharedSolutionContainerSystem _solutionContainerSystem = default!;
     [Dependency] private SharedDoAfterSystem _doAfterSystem = default!;
 
-    private static readonly ProtoId<ReagentPrototype> Blood = "Blood";
-    private static readonly ProtoId<ReagentPrototype> Slime = "Slime";
-    private static readonly ProtoId<ReagentPrototype> CopperBlood = "CopperBlood";
-
-    private static readonly string[] StandoutReagents = [Blood, Slime, CopperBlood];
+    private string[] _standoutReagents = [];
 
     /// <summary>
     /// The lowest threshold to be considered for puddle sprite states as well as slipperiness of a puddle.
@@ -50,7 +46,24 @@ public abstract partial class SharedPuddleSystem : EntitySystem
         SubscribeLocalEvent<PuddleComponent, TileFireEvent>(OnPuddleBurn);
         SubscribeLocalEvent<PuddleComponent, EntRemovedFromContainerMessage>(OnEntRemoved);
 
+        SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnPrototypesReloaded);
+
+        CacheStandsout();
         InitializeSpillable();
+    }
+
+    private void OnPrototypesReloaded(PrototypesReloadedEventArgs ev)
+    {
+        if (ev.WasModified<ReagentPrototype>())
+            CacheStandsout();
+    }
+
+    /// <summary>
+    /// Used to cache standout reagents for future use.
+    /// </summary>
+    private void CacheStandsout()
+    {
+        _standoutReagents = [.. _prototypeManager.EnumeratePrototypes<ReagentPrototype>().Where(x => x.Standsout).Select(x => x.ID)];
     }
 
     protected virtual void OnSolutionUpdate(Entity<PuddleComponent> entity, ref SolutionContainerChangedEvent args)
@@ -172,10 +185,10 @@ public abstract partial class SharedPuddleSystem : EntitySystem
             // Kinda EH
             // Could potentially do alpha per-solution but future problem.
 
-            color = solution.GetColorWithout(_prototypeManager, StandoutReagents);
+            color = solution.GetColorWithout(_prototypeManager, _standoutReagents);
             color = color.WithAlpha(0.7f);
 
-            foreach (var standout in StandoutReagents)
+            foreach (var standout in _standoutReagents)
             {
                 var quantity = solution.GetTotalPrototypeQuantity(standout);
                 if (quantity <= FixedPoint2.Zero)
