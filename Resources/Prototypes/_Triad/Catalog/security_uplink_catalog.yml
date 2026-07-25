@@ -711,7 +711,7 @@
   description: uplink-security-syringe-case-desc
   productEntity: SyringeCaseAltFilled
   cost:
-    TriadCommerceCredit: 50
+    TriadCommerceCredit: 25
   categories:
     - UplinkSecurityUtility
   conditions:
