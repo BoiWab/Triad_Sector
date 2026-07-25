@@ -3123,3 +3123,10 @@ Entries:
   id: 2450
   time: '2026-07-25T00:22:54.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/417
+- author: leafybonsai
+  changes:
+    - type: Fix
+      message: added the correct up to date knight
+  id: 2451
+  time: '2026-07-25T11:40:44.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/421
