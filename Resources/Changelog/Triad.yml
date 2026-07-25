@@ -3103,3 +3103,10 @@ Entries:
   id: 2448
   time: '2026-07-24T23:03:44.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/416
+- author: leafybonsai
+  changes:
+    - type: Fix
+      message: adjust the knight and fix it issues
+  id: 2449
+  time: '2026-07-25T00:15:38.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/418
