@@ -88,7 +88,7 @@
     startAudio:
       path: /Audio/Announcements/attention.ogg
     warningAnnouncement: station-event-bluespace-syndi-cache-warning-announcement
-    endAnnouncement: station-event-bluespace-syndi-cache-start-announcement
+    endAnnouncement: station-event-bluespace-syndi-cache-end-announcement
     earliestStart: 60
     weight: 5
     duration: 1200
