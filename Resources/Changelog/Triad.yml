@@ -3130,3 +3130,10 @@ Entries:
   id: 2451
   time: '2026-07-25T11:40:44.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/421
+- author: Wuffindy
+  changes:
+    - type: Tweak
+      message: Most suits with 100% rad immunity is at most 99% now
+  id: 2452
+  time: '2026-07-25T16:18:29.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/419
