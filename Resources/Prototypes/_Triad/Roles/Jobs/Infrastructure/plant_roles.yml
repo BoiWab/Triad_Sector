@@ -41,8 +41,10 @@
   equipment:
     id: PlantManagerPDA
     belt: ClothingBeltChiefEngineerFilled # Triad: fixed CE toolbelt (no belt choice), lives in gear not a loadout category
-    # Triad: ears (guaranteed) and glasses (optional) come from the role loadout; kept out of gear
-    # so the loadout doesn't double-fill the slot and drop a duplicate.
+  storage:
+    back:
+    - EncryptionKeyService # Colonial Staff
+    - EncryptionKeyCommand # Triad Command
 
 - type: job
   id: PlantTechnician
@@ -80,4 +82,6 @@
   id: PlantTechnicianGear
   equipment:
     id: PlantTechnicianPDA
-    # Triad: clothing comes from the role loadout (ears/belt guaranteed, glasses optional).
+  storage:
+    back:
+    - EncryptionKeyService # Colonial Staff
