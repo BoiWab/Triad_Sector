@@ -3169,3 +3169,12 @@ Entries:
   id: 2454
   time: '2026-07-26T13:27:13.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/424
+- author: gaywolfgirl6
+  changes:
+    - type: Add
+      message: Added a new scrapyard ship, the Sleipnir.
+    - type: Add
+      message: Added Scrapyard ship file structure.
+  id: 2455
+  time: '2026-07-26T13:40:03.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/423
