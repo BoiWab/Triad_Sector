@@ -19,6 +19,7 @@
       anchored: true
     - type: Physics
       bodyType: Static
+      canCollide: false
     - type: AmbientSound
       enabled: false
       volume: -8
