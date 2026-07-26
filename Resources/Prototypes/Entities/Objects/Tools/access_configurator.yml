@@ -112,7 +112,9 @@
     - External
     - Frontier # Frontier
     - HeadOfPersonnel
-    - HeadOfSecurity
+    - TdfWarden # Triad
+    - TdfPatrolTeamLeader # Triad
+    - TdfChiefEnforcer # Triad
     - Hydroponics
     - Janitor
     - Kitchen
