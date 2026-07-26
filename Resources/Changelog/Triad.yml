@@ -3137,3 +3137,26 @@ Entries:
   id: 2452
   time: '2026-07-25T16:18:29.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/419
+- author: DDrakov
+  changes:
+    - type: Add
+      message: Added the TA-29 hardsuit, a tier 2 suit for TDF. Sprite by Wuffindy
+    - type: Add
+      message: Added the Bastion, double barrel 4gauge shotgun. Sprite by Wuffindy
+    - type: Add
+      message: >-
+        Added TDF Tech to multipurpose assembly. Now TDF can trade their tech
+        with the lathe they can buy on the uplink
+    - type: Add
+      message: Added Tier 3 voucher for TDF on tech tree.
+    - type: Tweak
+      message: Made the multipurpose assembly ship save contraband
+    - type: Tweak
+      message: Made criminal records console ship saving contraband
+    - type: Remove
+      message: Removed all criminal records from expeds
+    - type: Tweak
+      message: The TDF Techfab and Uplink is now bio-locked, need TDF job to do so
+  id: 2453
+  time: '2026-07-26T04:40:23.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/422
