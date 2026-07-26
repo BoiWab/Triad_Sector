@@ -3160,3 +3160,12 @@ Entries:
   id: 2453
   time: '2026-07-26T04:40:23.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/422
+- author: IrkallaEpsilon
+  changes:
+    - type: Fix
+      message: >-
+        Bastion Description more badass and now correctly lists that its 4
+        gauge.
+  id: 2454
+  time: '2026-07-26T13:27:13.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/424
