@@ -3185,3 +3185,10 @@ Entries:
   id: 2456
   time: '2026-07-27T01:51:06.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/426
+- author: Wuffindy
+  changes:
+    - type: Fix
+      message: Fixed CMO suit speeding up character on held
+  id: 2457
+  time: '2026-07-27T12:22:07.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/428
