@@ -3199,3 +3199,10 @@ Entries:
   id: 2458
   time: '2026-07-27T22:26:58.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/432
+- author: Voronetz318
+  changes:
+    - type: Add
+      message: Added new RCD options for diagonal lattice tiles
+  id: 2459
+  time: '2026-07-27T22:46:29.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/302
