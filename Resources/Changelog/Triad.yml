@@ -3178,3 +3178,10 @@ Entries:
   id: 2455
   time: '2026-07-26T13:40:03.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/423
+- author: gaywolfgirl6
+  changes:
+    - type: Add
+      message: Cherrypicked craftable Pride Flags! <3
+  id: 2456
+  time: '2026-07-27T01:51:06.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/426
