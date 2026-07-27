@@ -3192,3 +3192,10 @@ Entries:
   id: 2457
   time: '2026-07-27T12:22:07.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/428
+- author: PhosphateWithManyOs
+  changes:
+    - type: Fix
+      message: Feroxi sound being broken
+  id: 2458
+  time: '2026-07-27T22:26:58.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/432
