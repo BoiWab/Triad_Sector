@@ -3206,3 +3206,10 @@ Entries:
   id: 2459
   time: '2026-07-27T22:46:29.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/302
+- author: Wuffindy
+  changes:
+    - type: Tweak
+      message: TDF & TFA gears are now unchameleonable
+  id: 2460
+  time: '2026-07-28T00:22:51.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/429
