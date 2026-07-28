@@ -3222,3 +3222,10 @@ Entries:
   id: 2461
   time: '2026-07-28T02:53:24.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/434
+- author: DDrakov
+  changes:
+    - type: Tweak
+      message: All ship exped capable
+  id: 2462
+  time: '2026-07-28T14:36:34.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/394
