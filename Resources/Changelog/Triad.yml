@@ -3252,3 +3252,18 @@ Entries:
   id: 2465
   time: '2026-07-28T23:13:02.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/433
+- author: SketchiiArtist
+  changes:
+    - type: Add
+      message: 'Added new science ship: Goida'
+    - type: Add
+      message: 'Added new Taxi ship: Marshrutka'
+    - type: Add
+      message: 'Added new Library ship: Povest'
+    - type: Add
+      message: 'Added new Attorney ship: Ruchka'
+    - type: Add
+      message: 'Added new Livery ship: Ugol'
+  id: 2466
+  time: '2026-07-29T01:46:15.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/258
