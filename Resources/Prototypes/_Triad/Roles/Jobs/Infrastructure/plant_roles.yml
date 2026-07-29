@@ -17,6 +17,7 @@
   # Engineering/Atmospherics cover the rest of the plant. (ChiefEngineer retired - it isn't
   # console-grantable and nothing plant-side needs it anymore.)
   access:
+  - ChiefEngineer # DoI access
   - Engineering
   - Atmospherics
   - Maintenance
