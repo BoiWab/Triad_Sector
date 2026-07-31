@@ -3267,3 +3267,12 @@ Entries:
   id: 2466
   time: '2026-07-29T01:46:15.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/258
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Admin Logs now show in an admins local time instead of UTC
+    - type: Tweak
+      message: Tips are now be more relevant and accurate to Triad
+  id: 2467
+  time: '2026-07-31T14:00:00.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/444
