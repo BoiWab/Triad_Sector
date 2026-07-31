@@ -3276,3 +3276,12 @@ Entries:
   id: 2467
   time: '2026-07-31T14:00:00.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/444
+- author: Khaomi
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the medical implanter to send a recurring message every 5
+        minutes after someone is dead
+  id: 2468
+  time: '2026-07-31T22:34:12.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/445
