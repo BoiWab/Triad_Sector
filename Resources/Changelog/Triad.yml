@@ -3285,3 +3285,41 @@ Entries:
   id: 2468
   time: '2026-07-31T22:34:12.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/445
+- author: rebaserHEAD
+  changes:
+    - type: Tweak
+      message: >-
+        Every species guidebook page has been rewritten as a TDF Bureau of
+        Personnel dossier with a randomized paper-doll preview. Same mechanics,
+        more paperwork.
+    - type: Tweak
+      message: The species sidebar in the guidebook is now alphabetized.
+    - type: Tweak
+      message: Arachnid suffocate 50% faster than baseline once oxygen runs out.
+    - type: Tweak
+      message: Protogen take 30% more cold damage.
+    - type: Tweak
+      message: Reptilian heat-boost threshold raised to 47°C ambient.
+    - type: Tweak
+      message: Resomi slow down at temperatures above 30°C.
+    - type: Tweak
+      message: Feroxi get thirsty roughly twice as fast.
+    - type: Tweak
+      message: >-
+        Avali and Feroxi are no longer restricted to a meat-only diet and can
+        eat all food.
+    - type: Tweak
+      message: >-
+        Oni hit harder in melee (+35% Blunt/Asphyxiation, +20% Slash/Piercing)
+        and pry doors open in about half the time.
+    - type: Tweak
+      message: Felinid stamina reduced.
+    - type: Fix
+      message: Hydrakin no longer extract oxygen from carbon dioxide.
+    - type: Remove
+      message: >-
+        Felinid OwOnavirus immunity removed (the disease system itself is
+        unimplemented in this fork).
+  id: 2469
+  time: '2026-08-01T01:00:49.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/112
