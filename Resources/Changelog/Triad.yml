@@ -3323,3 +3323,12 @@ Entries:
   id: 2469
   time: '2026-08-01T01:00:49.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/112
+- author: gaywolfgirl6
+  changes:
+    - type: Add
+      message: 'Added new Expedition ship: the DIRE Behir.'
+    - type: Add
+      message: Added Guidebook for the DIRE Behir.
+  id: 2470
+  time: '2026-08-01T06:56:38.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/446
