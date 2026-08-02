@@ -3341,3 +3341,14 @@ Entries:
   id: 2471
   time: '2026-08-02T17:26:53.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/452
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: >-
+        Portable scrubbers and space heaters now persist through ship saves even
+        when unanchored.
+    - type: Tweak
+      message: Desk bells now persist through ship saves.
+  id: 2472
+  time: '2026-08-02T17:28:34.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/451
