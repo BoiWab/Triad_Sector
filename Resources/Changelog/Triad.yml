@@ -3332,3 +3332,12 @@ Entries:
   id: 2470
   time: '2026-08-01T06:56:38.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/446
+- author: Khaomi
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the recurring medical alert to only alert while outside the
+        morgue
+  id: 2471
+  time: '2026-08-02T17:26:53.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/452
