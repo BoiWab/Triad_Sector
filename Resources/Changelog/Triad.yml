@@ -3389,3 +3389,12 @@ Entries:
   id: 2476
   time: '2026-08-03T16:46:46.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/438
+- author: Dimasw99
+  changes:
+    - type: Add
+      message: Added Edison AME fuel canister with 4x the capacity
+    - type: Tweak
+      message: AME production energy cost reduced by half
+  id: 2477
+  time: '2026-08-03T16:56:12.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/439
