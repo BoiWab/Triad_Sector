@@ -3368,3 +3368,12 @@ Entries:
   id: 2474
   time: '2026-08-03T15:39:53.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/450
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: Phalanx, Mech Carrier capitol ship to the TDF fleet
+    - type: Remove
+      message: Ravager
+  id: 2475
+  time: '2026-08-03T15:51:50.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/449
