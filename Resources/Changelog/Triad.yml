@@ -3359,3 +3359,12 @@ Entries:
   id: 2473
   time: '2026-08-03T14:31:46.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/457
+- author: BoiWab
+  changes:
+    - type: Add
+      message: 3 new sprites for shield generators
+    - type: Add
+      message: Shield generators now function as power monitoring consoles.
+  id: 2474
+  time: '2026-08-03T15:39:53.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/450
