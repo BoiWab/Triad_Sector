@@ -3422,3 +3422,10 @@ Entries:
   id: 2479
   time: '2026-08-04T12:37:54.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/462
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: The Engineering techfab(s) can now print maintenance jacks.
+  id: 2480
+  time: '2026-08-04T13:08:23.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/460
