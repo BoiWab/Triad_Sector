@@ -3405,3 +3405,20 @@ Entries:
   id: 2478
   time: '2026-08-03T20:22:55.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/459
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        The supermatter crystal now actually delaminates. It has been announcing
+        the countdown and then doing nothing.
+    - type: Add
+      message: >-
+        Supermatter delaminations cause hallucinations for everyone on the
+        crystal's map.
+    - type: Add
+      message: >-
+        A supermatter that is both over-pressured and over-powered now suffers a
+        resonance cascade, collapsing into a spreading crystalline growth.
+  id: 2479
+  time: '2026-08-04T12:37:54.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/462
