@@ -3436,3 +3436,32 @@ Entries:
   id: 2481
   time: '2026-08-05T12:48:20.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/467
+- author: rebaserHEAD
+  changes:
+    - type: Tweak
+      message: >-
+        The tesla ball now starves without a running particle accelerator, and
+        sheds miniature ball lightning when fed hard. A loose tesla burns itself
+        out in minutes.
+    - type: Tweak
+      message: >-
+        Tesla coils are now single-strike capacitors: lightning favors empty
+        coils, charged coils arc visibly while discharging, and total output
+        scales with how many towers you build.
+    - type: Tweak
+      message: >-
+        Tesla coils wear out under sustained load. Weld them on a service
+        rotation or stock spares.
+    - type: Tweak
+      message: >-
+        Lightning strikes now electrocute crew and mobs. Wear insulated gloves
+        around the engine.
+    - type: Add
+      message: >-
+        Bulk tesla coil crates (a dozen flatpacks) can be bought from the cargo
+        console.
+    - type: Tweak
+      message: Rewrote the Tesla Engine guidebook entry.
+  id: 2482
+  time: '2026-08-05T22:42:12.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/437
