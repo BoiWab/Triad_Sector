@@ -3429,3 +3429,10 @@ Entries:
   id: 2480
   time: '2026-08-04T13:08:23.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/460
+- author: nanbyt
+  changes:
+    - type: Tweak
+      message: Resomi base temp is now 285k
+  id: 2481
+  time: '2026-08-05T12:48:20.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/467
