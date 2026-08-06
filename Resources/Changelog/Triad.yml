@@ -3472,3 +3472,10 @@ Entries:
   id: 2483
   time: '2026-08-06T13:04:44.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/455
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Minor venmar adjustments
+  id: 2484
+  time: '2026-08-06T13:20:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/466
