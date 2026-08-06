@@ -3465,3 +3465,10 @@ Entries:
   id: 2482
   time: '2026-08-05T22:42:12.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/437
+- author: pandoraberry
+  changes:
+    - type: Fix
+      message: Fixed visual glitch for Reptilian tails rendering over clothing.
+  id: 2483
+  time: '2026-08-06T13:04:44.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/455
