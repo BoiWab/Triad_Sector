@@ -3479,3 +3479,18 @@ Entries:
   id: 2484
   time: '2026-08-06T13:20:56.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/466
+- author: DDrakov
+  changes:
+    - type: Remove
+      message: Removed Overseer whitelist.
+    - type: Tweak
+      message: >-
+        The Bulwark 4G shotgun gloves have been swapped for laser shotgun
+        gloves.
+    - type: Tweak
+      message: Increased Bulwark Modsuit speed penalty.
+    - type: Tweak
+      message: Minor armor increase for Bulwark Modsuit.
+  id: 2485
+  time: '2026-08-07T12:10:31.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/461
