@@ -9,10 +9,10 @@ namespace Content.Server.Tesla.EntitySystems;
 /// <summary>
 /// Generates electricity from lightning bolts
 /// </summary>
-public sealed class TeslaCoilSystem : EntitySystem
+public sealed partial class TeslaCoilSystem : EntitySystem
 {
-    [Dependency] private readonly BatterySystem _battery = default!;
-    [Dependency] private readonly SharedAppearanceSystem _appearance = default!; // Triad
+    [Dependency] private BatterySystem _battery = default!;
+    [Dependency] private SharedAppearanceSystem _appearance = default!; // Triad
 
     public override void Initialize()
     {
