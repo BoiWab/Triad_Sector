@@ -3494,3 +3494,12 @@ Entries:
   id: 2485
   time: '2026-08-07T12:10:31.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/461
+- author: gaywolfgirl6
+  changes:
+    - type: Add
+      message: 'Added a new Science Vessel to CIV Shipyard: Erudite.'
+    - type: Tweak
+      message: Added Ultra-Violet lights to Molecules Engine Bays!
+  id: 2486
+  time: '2026-08-08T07:32:48.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/447
