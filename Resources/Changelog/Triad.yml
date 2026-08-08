@@ -3503,3 +3503,24 @@ Entries:
   id: 2486
   time: '2026-08-08T07:32:48.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/447
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        The public transit bus runs its route again, docking at designated
+        berths instead of teleporting into stations.
+    - type: Add
+      message: Venmar Station, the Omnichurch Beacon, and the Pit are now bus stops.
+    - type: Tweak
+      message: >-
+        The bus waits at each stop, makes a boarding call before departing, and
+        skips stops with no usable berth with a service announcement.
+    - type: Tweak
+      message: FTL landing markers now display for the whole trip.
+    - type: Fix
+      message: >-
+        A large batch of production error fixes: stale entity references,
+        ship-save corruption sources, and a lightning stack overflow crash.
+  id: 2487
+  time: '2026-08-08T23:36:20.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/476
