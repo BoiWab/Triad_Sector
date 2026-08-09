@@ -55,7 +55,7 @@
 - type: entity
   id: AirlockGlassShuttleNfsdOutpost
   parent: AirlockGlassShuttleNfsd
-  suffix: OUTPOST ONLY, TSFMC, Glass, Docking
+  suffix: OUTPOST ONLY, TDF, Glass, Docking
   components:
   - type: Destructible # Mono - buff docking port health
     thresholds:
@@ -73,7 +73,7 @@
 - type: entity
   id: AirlockShuttleNfsdOutpost
   parent: AirlockShuttleNfsd
-  suffix: OUTPOST ONLY, TSFMC, Docking
+  suffix: OUTPOST ONLY, TDF, Docking
   components:
   - type: Destructible # Mono - buff docking port health
     thresholds:
