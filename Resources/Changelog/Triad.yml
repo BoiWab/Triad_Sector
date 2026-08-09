@@ -3524,3 +3524,14 @@ Entries:
   id: 2487
   time: '2026-08-08T23:36:20.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/476
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Infrastructure roles having inaccessible loadout items with
+        station server role requirements.
+    - type: Add
+      message: Added playtime requirements for Infrastructure roles.
+  id: 2488
+  time: '2026-08-09T01:58:08.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/475
