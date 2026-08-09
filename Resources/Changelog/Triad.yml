@@ -3542,3 +3542,13 @@ Entries:
   id: 2489
   time: '2026-08-09T06:23:39.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/477
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        Directional lights point in a direction again. Flashlights, hardhats,
+        modsuits, helmets, mech and borg headlights, thrusters and strobes were
+        all casting light evenly in every direction.
+  id: 2490
+  time: '2026-08-09T06:36:52.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/478
