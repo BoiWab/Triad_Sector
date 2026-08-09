@@ -3535,3 +3535,10 @@ Entries:
   id: 2488
   time: '2026-08-09T01:58:08.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/475
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: Fixed a client crash when a shuttle radar came into range of a VGRoid.
+  id: 2489
+  time: '2026-08-09T06:23:39.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/477
