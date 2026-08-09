@@ -3568,3 +3568,10 @@ Entries:
   id: 2492
   time: '2026-08-09T16:33:01.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/480
+- author: Wuffindy
+  changes:
+    - type: Fix
+      message: Fixed Avalis can't process cryogenic meds
+  id: 2493
+  time: '2026-08-09T16:33:28.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/468
