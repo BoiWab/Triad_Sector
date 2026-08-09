@@ -3552,3 +3552,10 @@ Entries:
   id: 2490
   time: '2026-08-09T06:36:52.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/478
+- author: nanbyt
+  changes:
+    - type: Fix
+      message: Fixed Resomi's temperature regulation threshold.
+  id: 2491
+  time: '2026-08-09T13:31:49.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/471
