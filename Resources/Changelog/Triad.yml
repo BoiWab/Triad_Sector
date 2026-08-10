@@ -3679,3 +3679,18 @@ Entries:
   id: 2502
   time: '2026-08-10T15:35:20.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/288
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the Overseer not being able to access medical dispatch admin
+        console.
+    - type: Fix
+      message: Fixed Director of Care having Overseer-level access.
+    - type: Fix
+      message: Fixed the station administration console on MD requiring 'HoS' access.
+    - type: Fix
+      message: Fixed emergency responders having DoC access.
+  id: 2503
+  time: '2026-08-10T15:42:23.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/488
