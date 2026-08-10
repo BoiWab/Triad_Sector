@@ -3664,3 +3664,18 @@ Entries:
   id: 2501
   time: '2026-08-10T15:24:58.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/485
+- author: DDrakov
+  changes:
+    - type: Add
+      message: Port Coyote Expedition Retrieval
+    - type: Tweak
+      message: >-
+        Tweak upon dying instead of round force player(s) to teleport into their
+        ship and removed their outer clothing, back, and suit storage
+    - type: Tweak
+      message: >-
+        Tweak marooned player got forced to teleport and removed their
+        suitstorage
+  id: 2502
+  time: '2026-08-10T15:35:20.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/288
