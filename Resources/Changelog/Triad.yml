@@ -3651,3 +3651,16 @@ Entries:
   id: 2500
   time: '2026-08-10T15:04:42.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/487
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        Salvage outposts now generate with their junction airlocks instead of
+        skipping them.
+    - type: Fix
+      message: >-
+        Welding-repairing a silicon no longer fails when the welder's heal list
+        includes a damage type that silicon cannot take.
+  id: 2501
+  time: '2026-08-10T15:24:58.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/485
