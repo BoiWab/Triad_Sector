@@ -3641,3 +3641,13 @@ Entries:
   id: 2499
   time: '2026-08-10T14:10:04.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/483
+- author: IrkallaEpsilon
+  changes:
+    - type: Fix
+      message: >-
+        Bread is no longer made from ingredients coming from Kur/The Dark/Xen
+        and thus no longer levitates when cut. In other words bread slices dont
+        float down here.
+  id: 2500
+  time: '2026-08-10T15:04:42.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/487
