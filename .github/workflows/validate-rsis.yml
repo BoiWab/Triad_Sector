@@ -8,22 +8,26 @@ on:
     paths:
       - '**.rsi/**'
 
+# Triad: key PR runs on PR number; never cancel a merge_group run, which fails the queue.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name != 'merge_group' }}
 
 jobs:
   validate_rsis:
     name: Validate RSIs
+    # Triad: skip the changelog bot's Resources/Changelog-only pushes to main.
+    if: github.actor != 'Triad-Sector'
     runs-on: ubuntu-latest
+    timeout-minutes: 15 # Triad: job takes ~1m.
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v7
       - name: Setup Submodule
         run: git submodule update --init
       - name: Pull engine updates
         uses: space-wizards/submodule-dependency@v0.1.5
       - name: Set up Python 3.10 # Frontier
-        uses: actions/setup-python@v3 # Frontier
+        uses: actions/setup-python@v5 # Frontier
         with: # Frontier
           python-version: "3.10" # Frontier
       - name: Install Python dependencies
