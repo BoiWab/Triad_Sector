@@ -3694,3 +3694,12 @@ Entries:
   id: 2503
   time: '2026-08-10T15:42:23.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/488
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        Structures built from the construction menu on a rotated ship now face
+        the direction you picked, instead of a quarter turn off.
+  id: 2504
+  time: '2026-08-11T00:38:57.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/493
