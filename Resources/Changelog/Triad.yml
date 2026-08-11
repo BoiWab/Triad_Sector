@@ -3703,3 +3703,12 @@ Entries:
   id: 2504
   time: '2026-08-11T00:38:57.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/493
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        Ships carrying a used mirror or pair of barber scissors can be saved
+        again.
+  id: 2505
+  time: '2026-08-11T01:45:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/495
