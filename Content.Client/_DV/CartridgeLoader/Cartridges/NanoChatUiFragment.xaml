@@ -18,12 +18,14 @@
             <BoxContainer Orientation="Horizontal"
                           HorizontalExpand="True"
                           Margin="0">
+                <!-- Triad - comment out NT logo
                 <TextureRect Name="AppIcon"
                              TexturePath="/Textures/Interface/Nano/ntlogo.svg.png"
                              Stretch="KeepAspectCentered"
                              VerticalAlignment="Center"
                              MinSize="32 32"
                              Margin="8 0 0 0" />
+                -->
                 <Label Text="{Loc nano-chat-title}"
                        StyleClasses="LabelHeading"
                        HorizontalExpand="True"
