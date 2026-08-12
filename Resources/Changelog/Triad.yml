@@ -3749,3 +3749,15 @@ Entries:
   id: 2509
   time: '2026-08-12T21:24:40.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/501
+- author: TheRealMasterChief117
+  changes:
+    - type: Add
+      message: >-
+        Added the TDF contraband permit console, used for granting permits to
+        Triad sector citizens. It prints out permit chips. From there, you scan
+        the item then the permit owner will scan themselves with the chip, which
+        allows you to insert it into the console to grant it. It also allows you
+        revoke permits remotely. Contraband permits will persist on ship save.
+  id: 2510
+  time: '2026-08-12T23:28:44.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/454
