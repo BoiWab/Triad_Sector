@@ -3739,3 +3739,13 @@ Entries:
   id: 2508
   time: '2026-08-12T18:51:19.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/464
+- author: rebaserHEAD
+  changes:
+    - type: Remove
+      message: >-
+        Removed oxygen, liquid oxygen, liquid nitrogen, carbon dioxide, liquid
+        carbon dioxide, storage, plasma, and BZ canisters from the trade
+        terminal. Air, nitrogen, and water vapor canisters remain purchasable.
+  id: 2509
+  time: '2026-08-12T21:24:40.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/501
