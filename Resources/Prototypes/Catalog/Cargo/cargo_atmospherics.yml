@@ -73,16 +73,15 @@
 #  category: cargoproduct-category-name-atmospherics
 #  group: market
 
-# Triad: removed - trade terminal canister purge, only water vapor/air/nitrogen kept buyable
-#- type: cargoProduct
-#  id: AtmosphericsStorage
-#  icon:
-#    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
-#    state: storage # Frontier yellow<storage
-#  product: StorageCanister
-#  cost: 1010 # No gases in it so it's cheaper
-#  category: cargoproduct-category-name-atmospherics
-#  group: market
+- type: cargoProduct
+  id: AtmosphericsStorage
+  icon:
+    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    state: storage # Frontier yellow<storage
+  product: StorageCanister
+  cost: 1010 # No gases in it so it's cheaper
+  category: cargoproduct-category-name-atmospherics
+  group: market
 
 # Triad changes - Feroxi use water vapor. Block uncommented.
 - type: cargoProduct
