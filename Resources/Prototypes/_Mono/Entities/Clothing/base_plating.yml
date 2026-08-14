@@ -57,3 +57,14 @@
   - type: StorageFill
     contents:
     - id: ArmorPlateSpeed
+
+# Triad: Utility plates
+
+- type: entity
+  abstract: true
+  parent: ClothingArmorPlate
+  id: ClothingArmorPlateLeaded
+  components:
+  - type: StorageFill
+    contents:
+    - id: ArmorPlateLeaded

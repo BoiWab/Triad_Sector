@@ -18,6 +18,7 @@
   recipeUnlocks:
   - ArmorPlateBlunt_Slash
   - ArmorPlatePierce
+  - ArmorPlateLeaded
   technologyPrerequisites:
   - UniversalMaterialResearchT1
   position: 11, 3

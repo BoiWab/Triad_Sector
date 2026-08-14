@@ -95,6 +95,8 @@
     - UtilityBelt
     - ConstructionBag
     - MaterialBoxFlatpack # Mono
+  ## Armor
+    - ArmorPlateLeaded # Triad
   ## EVA
     - ClothingOuterEVASuitEngineer
     - ClothingOuterEVASuitAtmosTech

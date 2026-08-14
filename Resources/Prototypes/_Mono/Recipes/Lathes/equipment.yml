@@ -83,6 +83,17 @@
     Brass: 3000
     Plastitanium: 1000
 
+# Triad: Utility Plates
+
+- type: latheRecipe
+  id: ArmorPlateLeaded
+  categories:
+  - ArmorNF
+  result: ArmorPlateLeaded
+  completetime: 15
+  materials:
+    Steel: 6000
+
 # ASMGT
 
 - type: latheRecipe

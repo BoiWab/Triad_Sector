@@ -125,3 +125,47 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+
+# Triad: Utility plates, Radiation, atmos, etc.
+
+- type: entity
+  parent: BaseItem
+  id: ArmorPlateLeaded
+  name: leaded armor plate
+  description: A simple set of thick lead sheets to improve radiation resistance. Extra layers of soft metal provide slight protection from blunt attacks. Caking of hardsuit thermo-control vents with lead leads to bad things when fire or lasers are involved. Warranty does not cover aspiration of molten metal.,
+  components:
+  - type: Sprite
+    sprite: _Triad/Clothing/ArmorPlate/armor_plates.rsi
+    state: leaded
+  - type: Item
+    sprite: _Triad/Clothing/ArmorPlate/armor_plates.rsi
+    size: Normal
+  - type: ArmorPlateItem
+    maxDurability: 100
+    walkSpeedModifier: 0.95
+    sprintSpeedModifier: 0.95
+    staminaDamageMultiplier: 0.0
+    damageMultipliers:
+      Radiation: 0.0
+      Piercing: 1.0
+      Blunt: 1.0
+      Slash: 1.0
+      Heat: 1.2
+    absorptionRatios:
+      Radiation: 0.5
+      Blunt: 0.2
+      Heat: 1.2
+  - type: FireProtection
+    reduction: 0.0
+
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
