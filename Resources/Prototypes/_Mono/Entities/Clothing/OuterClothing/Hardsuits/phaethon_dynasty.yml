@@ -46,10 +46,10 @@
     - RogueHardsuit
 
 - type: entity
-  parent: [ ClothingOuterHardsuitSyndie, BaseFactionGearPDVT2 ]
+  parent: [ ClothingOuterHardsuitSyndie] # Triad - domesticated PDV
   id: ClothingOuterHardsuitAshen
-  name: PDV CV-32 combat hardsuit
-  description: A combat hardsuit designed by the Phaethon Dynasty. A heavier but still general-purpose hardsuit, effective but not stellar against most damage types.
+  name: midnight operative special tacticool suit
+  description: Following a crippling strike on gorlex paint factories, their supply of signature blood-red paint ran dry. This was a last-ditch rebrand attempt. Identical in stats to the blood-red.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
