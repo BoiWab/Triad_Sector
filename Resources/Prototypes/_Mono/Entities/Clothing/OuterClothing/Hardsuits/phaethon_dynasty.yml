@@ -1,8 +1,8 @@
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearPDVT2 ]
+  parent: [ ClothingOuterHardsuitBase] # Triad - removed PDV ties
   id: ClothingOuterHardsuitPirateScaf
-  name: PDV SCAF hardsuit
-  description: An old SCAF suit painted in an PDV tan color scheme. The armor feels degraded, but lighter.
+  name: Painted SCAF hardsuit
+  description: A SCAF suit painted in a tan color scheme. Identical to a conventional SCAF suit.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
@@ -14,21 +14,21 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.45
+    damageCoefficient: 0.35
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.65
-        Slash: 0.65
-        Piercing: 0.55
-        Heat: 0.7
+      coefficients: # Triad - values made to match default SCAF suit
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.45
+        Heat: 0.55
         Radiation: 0.5
-        Caustic: 0.9
+        Caustic: 0.65
   - type: StaminaDamageResistance # Mono - Stamres
-    coefficient: 0.3
+    coefficient: 0.45
   - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
+    walkModifier: 0.825
+    sprintModifier: 0.825
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
