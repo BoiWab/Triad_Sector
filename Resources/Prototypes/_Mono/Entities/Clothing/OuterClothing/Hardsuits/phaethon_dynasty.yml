@@ -49,7 +49,7 @@
   parent: [ ClothingOuterHardsuitSyndie] # Triad - domesticated PDV
   id: ClothingOuterHardsuitAshen
   name: midnight operative special tacticool suit
-  description: Following a crippling strike on GorLex paint factories, their supply of signature blood-red ran dry. This was a last-ditch rebrand attempt.
+  description: Following a crippling strike on Gorlex paint factories, their supply of signature blood-red ran dry. This was a last-ditch rebrand attempt.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
