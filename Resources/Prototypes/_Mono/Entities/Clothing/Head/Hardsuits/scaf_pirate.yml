@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase]
   id: ClothingHeadHelmetHardsuitPirateScaf
-  name: Painted SCAF hardsuit helmet
-  description: A SCAF suit painted in a tan color scheme. Identical to a conventional SCAF suit.
+  name: SCRUFF hardsuit helmet
+  description: Easier on the neck than a standard SCAF suit, but less protective.
   categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
@@ -10,7 +10,7 @@
     sprite: _Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi
   - type: Clothing
     sprite: _Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi
-  # Triad : thermal vision removed, pairity with SCAF
+  # Triad : thermal vision removed, no longer faction-locked
   - type: PointLight
     radius: 8 # Triad : pairity with SCAF
     color: green
@@ -19,10 +19,11 @@
     lowPressureMultiplier: 1000
   - type: Armor
     modifiers:
-      coefficients: # Triad : pairity with SCAF
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.8
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
   - type: HideLayerClothing
     slots:
     - Hair

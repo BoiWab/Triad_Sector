@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase] # Triad - removed PDV ties
   id: ClothingOuterHardsuitPirateScaf
-  name: Painted SCAF hardsuit
-  description: A SCAF suit painted in a tan color scheme. Identical to a conventional SCAF suit.
+  name: SCRUFF hardsuit
+  description: A variant of the classic SCAF suit designed for arid climates. Lighter and more comfortable, but less protective.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
@@ -17,18 +17,18 @@
     damageCoefficient: 0.35
   - type: Armor
     modifiers:
-      coefficients: # Triad - values made to match default SCAF suit
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.45
-        Heat: 0.55
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.55
+        Heat: 0.7
         Radiation: 0.5
-        Caustic: 0.65
+        Caustic: 0.9
   - type: StaminaDamageResistance # Mono - Stamres
-    coefficient: 0.45
+    coefficient: 0.3
   - type: ClothingSpeedModifier
-    walkModifier: 0.825
-    sprintModifier: 0.825
+    walkModifier: 0.95
+    sprintModifier: 0.95
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
@@ -49,7 +49,7 @@
   parent: [ ClothingOuterHardsuitSyndie] # Triad - domesticated PDV
   id: ClothingOuterHardsuitAshen
   name: midnight operative special tacticool suit
-  description: Following a crippling strike on gorlex paint factories, their supply of signature blood-red paint ran dry. This was a last-ditch rebrand attempt. Identical in stats to the blood-red.
+  description: Following a crippling strike on GorLex paint factories, their supply of signature blood-red ran dry. This was a last-ditch rebrand attempt.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
