@@ -143,10 +143,14 @@
   - ClothingOuterHardsuitMercenary
   - ClothingOuterHardsuitPrivateSecurity
   - ClothingOuterHardsuitScaf
-  - ClothingOuterHardsuitPirateScaf # Triad : PDV scafsuit now normal tech
   - ClothingModsuitMercenaryPowerCell # Mono edit
   - ClothingShoesBootsMagSecurity
   - ClothingShoesBootsMagMercenary
+  - ClothingOuterHardsuitPirateScaf # Triad : faction gear domestication
+  - ClothingOuterHardsuitUsspL10
+  - ClothingOuterHardsuitUsspM10
+  - ClothingOuterHardsuitIndustrialEngi
+  - ClothingOuterHardsuitUsspL10A # Triad : End
 ## Utilities
   - ForensicPad
   - ClothingEyesHudBountyHunter
@@ -212,6 +216,7 @@
 #Triad Start
   - WeaponPistolStiletto
   - WeaponRiflePike
+  - ClothingOuterHardsuitIndustrialEngi
 #Triad End
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecatedEmag

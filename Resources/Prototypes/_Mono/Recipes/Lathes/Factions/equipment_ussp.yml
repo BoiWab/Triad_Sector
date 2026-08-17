@@ -19,8 +19,8 @@
 
 - type: latheRecipe
   parent: MonoHardsuitT2Recipe
-  id: ClothingOuterHardsuitUsspL27USSP
-  result: ClothingOuterHardsuitUsspL27
+  id: ClothingOuterHardsuitIndustrialEngiUSSP
+  result: ClothingOuterHardsuitIndustrialEngi
   materials:
     Steel: 3000
     Plasteel: 5000

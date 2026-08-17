@@ -86,3 +86,7 @@ WeaponLMGGrizzly: null
 # 2026-08-09
 PaperWrittenNoticeSr: null
 ClothingBackpackDuffelEVABundleSr: null
+
+# 2026-08-16
+ClothingBackpackDuffelClothingOuterHardsuitAshenBundle : ClothingBackpackDuffelOuterHardsuitTacticoolBundle
+

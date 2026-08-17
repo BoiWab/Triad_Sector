@@ -15,12 +15,12 @@
 - type: technology
   id: UsspMediumSuits
   name: research-technology-ussp-suits-medium
-  entityIcon: ClothingOuterHardsuitUsspL27
+  entityIcon: ClothingOuterHardsuitIndustrialEngi
   discipline: UsspEquipment
   tier: 2
   cost: 45000
   recipeUnlocks:
-  - ClothingOuterHardsuitUsspL27USSP
+  - ClothingOuterHardsuitIndustrialEngiUSSP
   - ClothingOuterHardsuitUsspM10USSP
   technologyPrerequisites:
   - UsspBasicSuits

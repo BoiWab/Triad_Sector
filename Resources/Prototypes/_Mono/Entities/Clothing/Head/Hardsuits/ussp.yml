@@ -1,8 +1,8 @@
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons]
+  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] # Triad : at some point, give engi helmets t-ray scanners
   id: ClothingHeadHelmetHardsuitUsspL27
-  name: USSP L-27 tacsuit helmet
-  description: The standard combat suit of USSP naval operations, outfitted with a medical hud too!
+  name: '"Korolev" Industrial engineering hardsuit helmet'
+  description: A heavy helmet fitted with a thick uranium glass visor.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
   - type: PointLight
     color: "#4e88a6"
   - type: PressureProtection
-    highPressureMultiplier: 0.08
+    highPressureMultiplier: 0.03 # 0.08 - > 0.03 : Triad
     lowPressureMultiplier: 1000
   - type: Armor
     modifiers:
@@ -21,6 +21,7 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
+        Radiation: 0.2 # Triad
   - type: HideLayerClothing
     slots:
     - Hair
