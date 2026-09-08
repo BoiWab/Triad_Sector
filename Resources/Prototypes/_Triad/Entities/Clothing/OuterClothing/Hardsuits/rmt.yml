@@ -75,7 +75,7 @@
         Heat: 0.75
         Radiation: 0.7
         Caustic: 0.7
-  - type: StaminaDamageResistance # Mono - Stamres
+  - type: StaminaDamageResistance
     coefficient: 0.2
   - type: ClothingSpeedModifier
     walkModifier: 1
