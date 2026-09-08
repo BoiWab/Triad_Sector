@@ -49,7 +49,6 @@
   - type: PirateBountyItem # Mono
     id: ClothingOuterHardsuitTacsuit
 
-
 - type: entity
   parent: [ ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitRmtL10
