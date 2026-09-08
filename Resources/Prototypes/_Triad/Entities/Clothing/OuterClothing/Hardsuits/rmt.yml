@@ -92,8 +92,6 @@
   - type: StaticPrice
     price: 420
     vendPrice: 2500
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuit
 
 - type: entity
   parent: [ ClothingOuterHardsuitBase ]
