@@ -286,7 +286,7 @@ SpawnPointDeputy: null
 JupiterCarrierComputer: null
 
 # 2026-08-16
-ClothingBackpackDuffelClothingOuterHardsuitAshenBundle : ClothingBackpackDuffelOuterHardsuitTacticoolBundle
+ClothingBackpackDuffelClothingOuterHardsuitAshenBundle: ClothingBackpackDuffelOuterHardsuitTacticoolBundle
 
 # 2026-08-24 xenoarchaeology rework: the legacy artifact entities no longer exist, but ship saves
 # live on the player's machine and can still carry them, and one missing prototype fails the whole
