@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseFactionGearTDFT2, BaseShipContrabandPermittableTdf]
+  parent: [ClothingOuterHardsuitBase, BaseFactionGearTDFT2, BaseClass2AShipContraband]
   id: ClothingOuterHardsuitTdf
   name: TA-21 hardsuit
   description: Originally of NanoTrasen design, this hardsuit has been reverse-engineered by the TDF and is now issued to enforcers operating in low-pressure and high-risk environments. Specialized in bullet protection.
@@ -149,11 +149,9 @@
     coefficient: 0.35
   - type: PirateBountyItem
     id: ClothingOuterHardsuitTacsuitHighValue
-  - type: ContrabandPermittable
-    permittable: false # Hell no
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearTDFT2, BaseShipContrabandPermittableTdf]
+  parent: [ClothingOuterHardsuitBase, BaseFactionGearTDFT2, BaseClass2AShipContraband]
   id: ClothingOuterHardsuitTdfHazmat
   name: TA-82 hazmat hardsuit
   description: An advanced combat hardsuit designed to combat extreme NBC threats. The armor is reinforced against claws and talons, keeping your limbs attached during animal control.
@@ -197,7 +195,7 @@
     vendPrice: 4000
 
 - type: entity
-  parent: [ClothingOuterHardsuitSyndieCommander, BaseFactionGearTDFT2, BaseShipContrabandPermittableTdf]
+  parent: [ClothingOuterHardsuitSyndieCommander, BaseFactionGearTDFT3, BaseClass2AShipContraband]
   id: ClothingOuterHardsuitTdfCasket
   name: 'TA-67 "The Brick" superheavy riot casket'
   description: You are against the wall, and I am the wall.
@@ -237,11 +235,9 @@
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepThud
-  - type: ContrabandPermittable
-    permittable: true # I mean, it can be taken away at any time, right? .
 
 - type: entity
-  parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing, BaseFactionGearTDFT2, BaseShipContrabandPermittableTdf ]
+  parent: [ClothingOuterHardsuitSyndieElite, EnergyShieldClothing, BaseFactionGearTDFT3, BaseClass2AShipContraband]
   id: ClothingOuterHardsuitTdfExperimental
   name: TA-99X experimental tacsuit
   description: A specialized combat tacsuit that sacrifices ballistic protection in favor of advanced mirrored composites and a rechargable hard-shield. Incredibly laser-resistant.
