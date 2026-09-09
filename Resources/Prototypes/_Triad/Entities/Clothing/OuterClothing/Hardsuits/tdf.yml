@@ -235,6 +235,8 @@
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepThud
+      params:
+        volume: 6
 
 - type: entity
   parent: [ClothingOuterHardsuitSyndieElite, EnergyShieldClothing, BaseFactionGearTDFT3, BaseClass2AShipContraband]

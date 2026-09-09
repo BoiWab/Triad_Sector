@@ -876,6 +876,8 @@
   - type: FootstepModifier # Triad - thud sound
     footstepSoundCollection:
       collection: FootstepThud
+      params:
+        volume: 6
 
 #Wizard Hardsuit
 - type: entity
