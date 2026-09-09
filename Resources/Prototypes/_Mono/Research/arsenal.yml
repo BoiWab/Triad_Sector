@@ -1,6 +1,6 @@
 - type: technology
   id: MercArmementHighEnd
-  name: research-technology-ullmanpulse-adv
+  name: research-technology-ullmanpulse-high-end
   entityIcon: UllmanWeaponPulseSniper
   discipline: Arsenal
   tier: 3
