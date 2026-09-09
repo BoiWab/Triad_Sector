@@ -53,6 +53,8 @@
   - ModsuitCoreStandard
   - ClothingOuterHardsuitRmtL10 # Triad
   - ClothingOuterHardsuitRmtL10A # Triad
+  - UllmanHardsuitPilot
+  - UllmanHardsuitEngineer
   technologyPrerequisites:
   - AdvancedParts
   position: 1, 8
