@@ -76,15 +76,15 @@
   - Maintenance
   - External
   ranks:
-    RankStationGuardSenior:
+    RankSeniorTechnician:
     - !type:DepartmentTimeRequirement
       department: Infrastructure
       time: 288000 # 70 hours
-    RankStationGuard:
+    RankTechnician:
     - !type:DepartmentTimeRequirement
       department: Infrastructure
       time: 36000 # 10 hours
-    RankStationGuardJunior: []
+    RankJuniorTechnician: []
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: FrontierBirthday
