@@ -7,7 +7,7 @@
 - type: rank
   id: RankDoC
   name: Director of Care
-  prefix: Dr.
+  prefix: DoC
 
 - type: rank
   id: RankEmergencyResponder
