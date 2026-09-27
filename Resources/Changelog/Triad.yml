@@ -5106,3 +5106,16 @@ Entries:
   id: 2628
   time: '2026-09-27T16:45:50.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/673
+- author: Wuffindy
+  changes:
+    - type: Add
+      message: >-
+        Added card holders, a more sleek version of wallet, though they cannot
+        hold coins
+    - type: Add
+      message: >-
+        Added business cards & bundle (gives 6 card) - currently only available
+        in loadouts, comes in a pack
+  id: 2629
+  time: '2026-09-27T16:46:42.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/674
