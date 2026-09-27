@@ -5119,3 +5119,10 @@ Entries:
   id: 2629
   time: '2026-09-27T16:46:42.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/674
+- author: oxaxe9846-arch
+  changes:
+    - type: Add
+      message: Added The Winged Choir player faction. Always.
+  id: 2630
+  time: '2026-09-27T22:20:06.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/668
