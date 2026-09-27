@@ -75,6 +75,16 @@
   - Atmospherics
   - Maintenance
   - External
+  ranks:
+    RankStationGuardSenior:
+    - !type:DepartmentTimeRequirement
+      department: Infrastructure
+      time: 288000 # 70 hours
+    RankStationGuard:
+    - !type:DepartmentTimeRequirement
+      department: Infrastructure
+      time: 36000 # 10 hours
+    RankStationGuardJunior: []
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: FrontierBirthday
