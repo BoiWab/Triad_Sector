@@ -5126,3 +5126,23 @@ Entries:
   id: 2630
   time: '2026-09-27T22:20:06.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/668
+- author: TheRealMasterChief117
+  changes:
+    - type: Add
+      message: >-
+        Added alternate job titles for Spacer and Service worker. Spacer has 38
+        different jobs titles relating to any sort of role or job you might see
+        yourself working as out in Triad, and Service Worker has 8.
+    - type: Tweak
+      message: >-
+        Renamed TDF junior enforcer to TDF cadet. The rank is the same, only the
+        role's name was changed.
+    - type: Tweak
+      message: Changed DoC's rank prefix from 'Dr.' to 'DoC'
+    - type: Tweak
+      message: >-
+        Sector Technicians and the DOI now have IC ranks that appear on your
+        name!
+  id: 2631
+  time: '2026-09-27T23:25:05.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/675
