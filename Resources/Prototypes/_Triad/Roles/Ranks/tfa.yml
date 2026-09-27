@@ -25,6 +25,11 @@
   prefix: Sr. Tech.
 
 - type: rank
+  id: RankTechnician
+  name: Technician
+  prefix: Tech.
+
+- type: rank
   id: RankJuniorTechnician
   name: Junior Technician
   prefix: Jr. Tech.
