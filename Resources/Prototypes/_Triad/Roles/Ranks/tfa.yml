@@ -40,11 +40,6 @@
   prefix: Sr. Off.
 
 - type: rank
-  id: RankStationGuardSenior
-  name: Senior Security Officer
-  prefix: Sr. Off.
-
-- type: rank
   id: RankStationGuard
   name: Security Officer
   prefix: Off.
