@@ -2,6 +2,7 @@
   parent: [BaseStorageItem, Clothing, RecyclableItemNoMats]
   id: BaseBusinessCardHolder
   name: card holder
+  description: Made for holding business cards, but it can hold credits and shipyard vouchers too.
   abstract: true
   components:
   - type: Item
