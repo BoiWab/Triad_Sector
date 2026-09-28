@@ -256,7 +256,7 @@
   parent: PosterBase
   id: PosterContrabandRebelsUnite
   name: "Rebels Unite"
-  description: "A poster urging the viewer to rebel against the TSF on the side of the Rogue Sector."
+  description: "A poster urging the viewer to rebel against the Imperial Coalition of Tau on the side of the Triad Sector."
   components:
   - type: Sprite
     state: poster23_contraband
