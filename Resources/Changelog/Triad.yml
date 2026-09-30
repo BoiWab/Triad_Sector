@@ -5190,3 +5190,16 @@ Entries:
   id: 2636
   time: '2026-09-30T15:18:13.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/682
+- author: BoskiYourk
+  changes:
+    - type: Tweak
+      message: Fuel-grade fuels now stack up to 100
+    - type: Tweak
+      message: Fuelvends now dispense 50 fuel-grade fuel at a time
+    - type: Tweak
+      message: Fuelvends now dispense faster
+    - type: Tweak
+      message: Fuelvends now have a more cohesive fuel list
+  id: 2637
+  time: '2026-09-30T17:16:15.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/683
