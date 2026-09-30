@@ -5183,3 +5183,10 @@ Entries:
   id: 2635
   time: '2026-09-29T22:00:25.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/679
+- author: Wuffindy
+  changes:
+    - type: Fix
+      message: Fixes plasturanium window sprite
+  id: 2636
+  time: '2026-09-30T15:18:13.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/682
