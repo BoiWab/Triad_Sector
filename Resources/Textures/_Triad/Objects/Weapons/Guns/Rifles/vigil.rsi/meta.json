@@ -1,20 +1,20 @@
 {
     "version": 1,
-    "license": "CC-BY-NC-SA-4.0",
-    "copyright": "Made by _starch_ (discord), recolored by ddrakov (discord)",
+    "license": "CC-BY-SA-3.0",
+    "copyright": "made by ddrakov on Discord for TDF",
     "size": {
         "x": 48,
         "y": 32
     },
     "states": [
         {
+            "name": "icon"
+        },
+        {
             "name": "base"
         },
         {
             "name": "bolt-open"
-        },
-        {
-            "name": "icon"
         },
         {
             "name": "mag-0"
