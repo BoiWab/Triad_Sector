@@ -5203,3 +5203,14 @@ Entries:
   id: 2637
   time: '2026-09-30T17:16:15.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/683
+- author: DDrakov
+  changes:
+    - type: Add
+      message: >-
+        Added Vigil and the Bishop, replacement guns for the TDF Lecter and TDF
+        MR-8T! Comes with new, shiny sprites.
+    - type: Tweak
+      message: Recolor Riot LMG sprite.
+  id: 2638
+  time: '2026-09-30T17:22:37.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/680
