@@ -5214,3 +5214,33 @@ Entries:
   id: 2638
   time: '2026-09-30T17:22:37.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/680
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: >-
+        The Imperial Coalition has been renamed to the 'Imperial Coalition of
+        Tau'.
+    - type: Add
+      message: >-
+        (Lore) Added information regarding the Auric District, the name of the
+        playable area in-game. This information is available in the primer.
+    - type: Add
+      message: >-
+        (Lore) Information regarding the Coalition's home system, the Tau
+        System, has been added to their faction lore page under 'Major
+        Factions'.
+    - type: Add
+      message: >-
+        Added Tau, the official language of the Imperial Coalition of Tau.
+        Selectable in traits!
+    - type: Add
+      message: >-
+        Added Triadian, one of the official languages of the Triad Sector.
+        Selectable in traits!
+    - type: Tweak
+      message: >-
+        TFA high command roles now have Triadian as one of their default
+        languages.
+  id: 2639
+  time: '2026-10-01T23:30:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/687
