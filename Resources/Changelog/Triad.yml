@@ -5244,3 +5244,10 @@ Entries:
   id: 2639
   time: '2026-10-01T23:30:56.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/687
+- author: Nox38
+  changes:
+    - type: Tweak
+      message: Rebuilt weapon groups to make more sense.
+  id: 2640
+  time: '2026-10-02T00:57:20.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/619
