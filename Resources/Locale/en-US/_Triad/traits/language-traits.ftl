@@ -12,6 +12,6 @@ trait-language-tau-desc =
 
 trait-language-triadian-name = Triadian
 trait-language-triadian-desc =
-    Due to the overwhemling amount of Tau speakers in the Triad Sector, the language was proposed in 2794 by CDF higher-ups to make information breaches by the Coalition less effective.
+    Due to the overwhelming amount of Tau speakers in the Triad Sector, the language was proposed in 2794 by CDF higher-ups to make information breaches by the Coalition less effective.
     Phonetically, it sounds similar to Tau; but is almost incomprehensible to Tau speakers because of its extremely different structure. Very few words between Triadian and Tau are mutually shared.
     Nowadays, it is one of the official languages of the Triad Sector, spoken by the Triad Sector Government, TFA officials, and the TDF.
