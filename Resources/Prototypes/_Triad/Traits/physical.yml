@@ -4,6 +4,6 @@
   name: trait-physical-linguist-name
   description: trait-physical-linguist-desc
   category: Physical
-  cost: 4
+  cost: 3
   grantsCategorySlots:
     LanguageTraits: 1
