@@ -5328,3 +5328,10 @@ Entries:
   id: 2645
   time: '2026-10-03T19:03:57.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/694
+- author: DDrakov
+  changes:
+    - type: Tweak
+      message: Flash protection is now examinable on items
+  id: 2646
+  time: '2026-10-03T20:00:07.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/647
