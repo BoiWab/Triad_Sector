@@ -5292,3 +5292,12 @@ Entries:
   id: 2642
   time: '2026-10-02T19:16:11.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/688
+- author: Wuffindy
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Heavy-Duty Airlock sprite animation. Its timing has been
+        readjusted and no longer overlaps.
+  id: 2643
+  time: '2026-10-03T17:20:45.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/677
