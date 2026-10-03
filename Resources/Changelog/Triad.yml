@@ -5319,3 +5319,12 @@ Entries:
   id: 2644
   time: '2026-10-03T17:55:49.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/692
+- author: TheRealMasterChief117
+  changes:
+    - type: Add
+      message: >-
+        Added the Linguist trait. It's under the Physical category, allowing you
+        to select 1 extra language at the cost of 4 physical points.
+  id: 2645
+  time: '2026-10-03T19:03:57.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/694
