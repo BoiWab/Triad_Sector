@@ -5301,3 +5301,21 @@ Entries:
   id: 2643
   time: '2026-10-03T17:20:45.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/677
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: >-
+        Spacer loadouts have been massively tweaked, with their major equipment
+        going into organized categories. Hardsuit, armor, and modsuit prices
+        have also been tweaked.
+    - type: Remove
+      message: >-
+        Decommissioned Pilot and Mercenary access. The two accesses have been
+        replaced with a general 'Civilian' access.
+    - type: Remove
+      message: >-
+        Removed Mercenary and Pilot job roles, their gear has been collapsed
+        into Spacer.
+  id: 2644
+  time: '2026-10-03T17:55:49.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/692
