@@ -101,6 +101,12 @@
     jumpsuit: ClothingUniformJumpskirtMercenary
 
 - type: loadout
+  id: ClothingUniformJumpsuitMilitaryTurtleneckMercenary
+  groupBy: MercenaryJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitaryTurtleneckMercenary
+
+- type: loadout
   id: ClothingUniformJumpsuitMilitaryTurtleneckMercenaryMedic
   groupBy: MercenaryJumpsuit
   equipment:
