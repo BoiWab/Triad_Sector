@@ -39,7 +39,6 @@
     sprite: _Triad/Clothing/Head/Hardsuits/private_security.rsi # Triad resprite
   - type: Clothing
     sprite: _Triad/Clothing/Head/Hardsuits/private_security.rsi # Triad resprite
-    equippedPrefix: null
     clothingVisuals:
       head:
       - state: equipped-HELMET
