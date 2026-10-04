@@ -30,6 +30,7 @@
   - ContractorClothingUniformJumpskirtAtmos
   - ContractorClothingUniformJumpsuitHydroponics
   - ContractorClothingUniformJumpskirtHydroponics
+  - ContractorClothingUniformJumpsuitMilitaryHydroponics
   - ContractorClothingUniformJumpsuitMedicalDoctor
   - ContractorClothingUniformJumpskirtMedicalDoctor
   - ContractorClothingUniformJumpsuitScientist
@@ -202,7 +203,6 @@
   - ContractorClothingUniformJumpsuitMilitaryScientist
   - ContractorClothingUniformJumpsuitMilitaryResearchDirector
   - ContractorClothingUniformJumpsuitMilitaryService
-  - ContractorClothingUniformJumpsuitMilitaryHydroponics
   - ContractorClothingUniformJumpsuitMilitaryColorGrey
   - ContractorClothingUniformJumpsuitMilitaryColorBlack
   - ContractorClothingUniformJumpsuitMilitaryColorBlue
