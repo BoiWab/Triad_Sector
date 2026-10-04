@@ -77,6 +77,12 @@
     jumpsuit: ClothingUniformJumpskirtHydroponics
 
 - type: loadout
+  id: ContractorClothingUniformJumpsuitMilitaryHydroponics
+  groupBy: HydroponicsJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitaryHydroponics
+
+- type: loadout
   id: ContractorClothingUniformJumpsuitMedicalDoctor
   groupBy: MedicalJumpsuit
   equipment:
@@ -1145,12 +1151,6 @@
   groupBy: MilitaryJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryService
-
-- type: loadout
-  id: ContractorClothingUniformJumpsuitMilitaryHydroponics
-  groupBy: MilitaryJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitMilitaryHydroponics
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorGrey
