@@ -5344,3 +5344,12 @@ Entries:
   id: 2647
   time: '2026-10-04T00:49:59.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/691
+- author: Wuffindy
+  changes:
+    - type: Tweak
+      message: Concussive Gauntlets cost 2 stamina to wide-swing, not smash
+    - type: Fix
+      message: Concussive Gauntlets now needs to be worn to swing
+  id: 2648
+  time: '2026-10-04T20:53:24.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/695
