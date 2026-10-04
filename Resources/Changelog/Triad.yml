@@ -5335,3 +5335,12 @@ Entries:
   id: 2646
   time: '2026-10-03T20:00:07.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/647
+- author: DDrakov
+  changes:
+    - type: Add
+      message: Added camera maps
+    - type: Fix
+      message: Fixed the surveillance camera and other camera to function properly
+  id: 2647
+  time: '2026-10-04T00:49:59.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/691
