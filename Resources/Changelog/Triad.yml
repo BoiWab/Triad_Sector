@@ -5373,3 +5373,12 @@ Entries:
   id: 2650
   time: '2026-10-06T00:33:30.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/698
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: Fixed safety box withdraw spam.
+    - type: Fix
+      message: Fixed safety deposit boxes not checking item slots.
+  id: 2651
+  time: '2026-10-06T19:36:00.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/700
