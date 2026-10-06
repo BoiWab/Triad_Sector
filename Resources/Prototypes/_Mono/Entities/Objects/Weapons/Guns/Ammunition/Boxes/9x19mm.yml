@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: [BaseItem, RecyclableItemCardboard, BaseClass2AShipContrabandSilent] # Frontier: added RecyclableItemCardboard
+  parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
   id: BaseAmmoBox9x19mm
   name: ammunition box (9x19mm FMJ)
   components:
@@ -114,7 +114,7 @@
 
 # Frontier
 - type: entity
-  parent: BaseAmmoBox9x19mm
+  parent: [BaseAmmoBox9x19mm, BaseClass2AShipContrabandSilent]
   id: AmmoBox9x19mmEmp
   name: ammunition box (9x19mm emp)
   components:
