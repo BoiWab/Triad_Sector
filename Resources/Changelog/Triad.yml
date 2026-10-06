@@ -5362,3 +5362,14 @@ Entries:
   id: 2649
   time: '2026-10-04T20:53:45.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/696
+- author: TheRealMasterChief117
+  changes:
+    - type: Add
+      message: >-
+        Added occluders for diagonal walls! This means their shadows will no
+        longer take up a full tile!
+    - type: Fix
+      message: Fixed light occlusion causing weird bugs in 1x1 tile rooms.
+  id: 2650
+  time: '2026-10-06T00:33:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/698
