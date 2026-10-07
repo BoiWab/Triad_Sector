@@ -52,6 +52,55 @@
   - SpacerBusinessman
   - SpacerBusinessperson
   - SpacerEntrepreneur
+  - SpacerHydroponicsTechnician
+  - SpacerBotanist
+  - SpacerHorticulturist
+  - SpacerOrbital Farmhand
+  - SpacerFarmer
+  - SpacerFlorist
+  - SpacerAgriculturalGeneticist
+  - SpacerAsteroidDerrickhand
+  - SpacerGasDrillingSpecialist
+  - SpacerNavigator
+  - SpacerDroneHunter
+  - SpacerDropTrooper
+  - SpacerShipwright
+  - SpacerGasRefineryOperator
+  - SpacerOuterReachRescueSpecialist
+  - SpacerInteriorDesigner
+  - SpacerTrader
+  - SpacerMechPilot
+  - SpacerGeneticist
+  - SpacerTestPilot
+  - SpacerRacer #oh my gorud its the guy from invincible
+  - SpacerFinancial Advisor
+  - SpacerLivestreamer
+  - SpacerPrivateCollector
+  - SpacerCaptain
+  - SpacerArmorer
+  - SpacerDeckhand
+  - SpacerYeoman
+  - SpacerYeowoman
+  - SpacerHelmsman
+  - SpacerHelmswoman
+  - SpacerHelmsperson
+  - SpacerSailor
+  - SpacerBoatswain
+  - SpacerNavyCook
+  - SpacerPoliticalActivist
+  - SpacerArmsDealer
+  - SpacerGuru
+  - SpacerMonk
+  - SpacerStationer
+  - SpacerTravellingClown
+  - SpacerMusician
+  - SpacerArtist
+  - SpacerFunctionalArtifactCultivator
+  - SpacerAnomalousObjectApplicationsScientist
+  - SpacerApiarist
+  - SpacerFryCook
+  - SpacerShipInspector
+
 
 - type: jobAlternateTitle
   id: SpacerCitizen
