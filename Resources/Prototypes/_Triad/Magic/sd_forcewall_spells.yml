@@ -1,0 +1,15 @@
+﻿- type: entity
+  parent: ActionForceWall
+  id: ActionForceWallDyson
+  name: projected barrier
+  description: Projects a hardlight barrier in front of you.
+  components:
+  - type: InstantAction
+    useDelay: 10
+    itemIconStyle: BigAction
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: shield
+    event: !type:InstantSpawnSpellEvent
+      prototype: WallForceDyson
+      posData: !type:TargetInFront
