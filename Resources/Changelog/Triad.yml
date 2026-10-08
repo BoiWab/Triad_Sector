@@ -5382,3 +5382,28 @@ Entries:
   id: 2651
   time: '2026-10-06T19:36:00.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/700
+- author: BoiWab
+  changes:
+    - type: Add
+      message: Added a ton of new titles for spacers
+  id: 2652
+  time: '2026-10-07T10:17:34.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/704
+- author: BoiWab
+  changes:
+    - type: Add
+      message: Added the Tourists faction
+  id: 2653
+  time: '2026-10-07T10:19:19.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/703
+- author: DDrakov
+  changes:
+    - type: Add
+      message: Added TA-29 to the uplink
+    - type: Add
+      message: Added 4 gauge beanbag to the uplink
+    - type: Remove
+      message: Removed WT Magazine from uplink
+  id: 2654
+  time: '2026-10-07T14:44:54.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/702
