@@ -36,7 +36,7 @@
   - type: Item
     size: Normal # Frontier: Large<Normal
     shape: # Frontier
-    - 0,0,2,1 # Frontier
+    - 0,0,1,1 # Triad : make regular and combat medkits identical
     sprite: Objects/Specific/Medical/firstaidkits.rsi
     heldPrefix: firstaid
   - type: PhysicalComposition
