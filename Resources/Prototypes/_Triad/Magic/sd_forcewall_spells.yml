@@ -1,15 +1,16 @@
 ﻿- type: entity
-  parent: ActionForceWall
   id: ActionForceWallDyson
-  name: projected barrier
-  description: Projects a hardlight barrier in front of you.
+  name: Barrier Swarm
+  description: Expel some of your suit's nanites to form a stationary barrier against ranged attacks.
   components:
   - type: InstantAction
-    useDelay: 10
+    useDelay: 15
     itemIconStyle: BigAction
     icon:
-      sprite: Objects/Magic/magicactions.rsi
-      state: shield
+      sprite: _Triad/Structure/Holo/forcewall.rsi
+      state: barrier
     event: !type:InstantSpawnSpellEvent
       prototype: WallForceDyson
       posData: !type:TargetInFront
+      extraPrototype: WallForceDysonSpeaker
+      extraPosData: !type:TargetInFrontSingle

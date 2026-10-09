@@ -3,7 +3,7 @@
   name: force wall
   components:
   - type: TimedDespawn
-    lifetime: 12
+    lifetime: 13
   - type: Tag
     tags:
     - Wall
@@ -21,20 +21,33 @@
         - WallLayer
   - type: Airtight
   - type: Sprite
-    sprite: Structures/Magic/forcewall.rsi
-    state: forcewall
+  - type: HolopadHologram
+    rsiPath: _Triad/Structure/Holo/forcewall.rsi
+    rsiState: barrier
+    shaderName: Hologram
+    color1: "#79f2f2"
+    color2: "#3a8a8a"
+    alpha: 0.85
+    intensity: 2
+    scrollRate: 0.125
   - type: Icon
-    sprite: Structures/Magic/forcewall.rsi
-    state: forcewall
+    sprite: _Triad/Structure/Holo/forcewall.rsi
+    state: barrier
+  - type: PointLight
+    enabled: true
+    radius: 2
+    energy: 1
+    # I really want these to make a tiny amount of water vapor when they're spawned, but can't figure it out.
+
 
 - type: entity
   id: WallForceDysonSpeaker
   name: force wall speaker
   components:
   - type: TimedDespawn
-    lifetime: 12
-  - type: AmbientSound
-    volume: -1
+    lifetime: 14 # despawn it one second later than the wall itself for tyler1 scream esque fadeout
+  - type: EmitSoundOnSpawn
+    volume: 3
     range: 30
     enabled: true
     sound:
