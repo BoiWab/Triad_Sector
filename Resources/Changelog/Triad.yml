@@ -5661,3 +5661,14 @@ Entries:
   id: 2678
   time: '2026-10-16T03:09:01.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/733
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: >-
+        Listening Post Bravo has grown tired of being repeatedly shot, stabbed,
+        and hammered by a moth!  They've upped their defenses.  Adding an extra
+        bit of challenge to the location.  Make sure to bring friends if you're
+        visiting.
+  id: 2679
+  time: '2026-10-16T19:58:31.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/736
