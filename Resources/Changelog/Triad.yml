@@ -5672,3 +5672,12 @@ Entries:
   id: 2679
   time: '2026-10-16T19:58:31.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/736
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: >-
+        Reptilians now get drunk under 288 K (14.85 °C) instead of 295 K (21.85
+        °C).
+  id: 2680
+  time: '2026-10-17T14:28:18.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/738
