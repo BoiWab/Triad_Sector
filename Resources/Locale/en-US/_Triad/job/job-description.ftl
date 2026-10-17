@@ -11,7 +11,7 @@ job-description-tfa-high-command = Act as an ambassador to Venmar Station, Medic
 job-description-tfa-high-command-intern = Follow the orders of your superior High Commanders and file paperwork.
 
 # Freelancers
-job-description-contractor = Fulfill your own goals out in Triad space.
+job-description-contractor = Fulfill your own goals out in the Auric District.
 job-description-mercenary = Execute the bidding of anyone- for the right price.
 job-description-pilot = Pilot spaceships from point A to B, outmaneuver enemies, dodge asteroids and other ships.
 
