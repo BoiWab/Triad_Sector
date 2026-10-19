@@ -5694,3 +5694,10 @@ Entries:
   id: 2681
   time: '2026-10-17T19:36:47.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/741
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: Solar panels are now no longer damaged by thrusters.
+  id: 2682
+  time: '2026-10-19T13:27:23.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/743
