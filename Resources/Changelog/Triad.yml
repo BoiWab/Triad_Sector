@@ -5721,3 +5721,10 @@ Entries:
   id: 2684
   time: '2026-10-20T19:55:18.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/749
+- author: Wizden
+  changes:
+    - type: Fix
+      message: Fix solutions/reagents flickering when transferring contents
+  id: 2685
+  time: '2026-10-21T23:34:33.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/748
