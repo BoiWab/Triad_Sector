@@ -5728,3 +5728,10 @@ Entries:
   id: 2685
   time: '2026-10-21T23:34:33.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/748
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: Fixed robust harvest and EZ nutrient not working with hydroponic trays!
+  id: 2686
+  time: '2026-10-23T23:51:55.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/755
