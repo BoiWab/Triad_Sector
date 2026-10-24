@@ -1,1 +1,1 @@
-silicon-radiation-warning = WARNING: Radiation damage detected!
+silicon-radiation-warning = WARNING: Radiation damage to components detected!
