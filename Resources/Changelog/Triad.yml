@@ -5794,3 +5794,10 @@ Entries:
   id: 2688
   time: '2026-10-24T13:35:04.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/701
+- author: NEWSUI
+  changes:
+    - type: Add
+      message: New cargo freighter, the NSC Commerçant
+  id: 2689
+  time: '2026-10-24T18:27:13.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/731
