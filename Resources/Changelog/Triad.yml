@@ -5735,3 +5735,10 @@ Entries:
   id: 2686
   time: '2026-10-23T23:51:55.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/755
+- author: BoskiYourk
+  changes:
+    - type: Add
+      message: Added circuit boards for each unique large thruster!
+  id: 2687
+  time: '2026-10-24T00:00:37.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/750
