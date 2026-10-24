@@ -20,9 +20,16 @@ public sealed partial class AbsorbentComponent : Component
     public Dictionary<Color, float> Progress = [];
 
     /// <summary>
+    /// Name for solution container, that should be used for absorbed solution storage and as source of absorber solution.
+    /// Default is 'absorbed'.
+    /// </summary>
+    [DataField]
+    public string SolutionName = "absorbed";
+
+    /// <summary>
     /// How much solution we can transfer in one interaction.
     /// </summary>
-    [DataField("pickupAmount")]
+    [DataField]
     public FixedPoint2 PickupAmount = FixedPoint2.New(100);
 
     /// <summary>
