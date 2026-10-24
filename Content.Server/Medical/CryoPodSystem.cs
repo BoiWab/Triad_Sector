@@ -60,7 +60,9 @@ public sealed partial class CryoPodSystem : SharedCryoPodSystem
             null,
             null,
             null,
-            null
+            null, // Frontier
+            null, // Shitmed
+            null // Shitmed
         ));
     }
 

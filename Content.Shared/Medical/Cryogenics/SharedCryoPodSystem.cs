@@ -108,6 +108,8 @@ public abstract partial class SharedCryoPodSystem : EntitySystem
                 && _bloodstreamQuery.TryComp(patient, out var bloodstream))
             {
                 var solutionToInject = _solutionContainer.SplitSolution(containerSolution.Value, cryoPod.BeakerTransferAmount);
+                // For every .25 units used, .5 units per second are added to the body, making cryo-pod more efficient than injections.
+                solutionToInject.ScaleSolution(cryoPod.PotencyMultiplier); // Frontier
                 _bloodstream.TryAddToChemicals((patient.Value, bloodstream), solutionToInject);
                 _reactive.DoEntityReaction(patient.Value, solutionToInject, ReactionMethod.Injection);
             }
