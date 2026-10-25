@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "By BoiWab for Triad",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "third_eye",
+      "directions": 4
+    },
+    {
+      "name": "third_eye_pupil",
+      "directions": 4
+    },
+    {
+      "name": "cheek_feathers",
+      "directions": 4
+    },
+    {
+      "name": "crest_feathers_mid",
+      "directions": 4
+    },
+    {
+      "name": "crest_feathers_top",
+      "directions": 4
+    },
+    {
+      "name": "split_jaw",
+      "directions": 4
+    },
+    {
+      "name": "pointy_head",
+      "directions": 4
+    },
+    {
+      "name": "four_eyes",
+      "directions": 4
+    },
+    {
+      "name": "four_eyes_pupil",
+      "directions": 4
+    },
+    {
+      "name": "cyberware_base",
+      "directions": 4
+    },
+    {
+      "name": "cyberware_1",
+      "directions": 4
+    },
+    {
+      "name": "cyberware_led_l",
+      "directions": 4
+    },
+    {
+      "name": "cyberware_led_r",
+      "directions": 4
+    },
+    {
+      "name": "beak_medium",
+      "directions": 4
+    },
+    {
+      "name": "beak_long",
+      "directions": 4
+    },
+    {
+      "name": "bill",
+      "directions": 4
+    },
+    {
+      "name": "drinking_bird",
+      "directions": 4
+    },
+    {
+      "name": "probe",
+      "directions": 4
+    },
+    {
+      "name": "granivore",
+      "directions": 4
+    },
+    {
+      "name": "double_pointy_head",
+      "directions": 4
+    },
+    {
+      "name": "chestplate",
+      "directions": 4
+    },
+    {
+      "name": "shoulders",
+      "directions": 4
+    },
+    {
+      "name": "ribs",
+      "directions": 4
+    },
+    {
+      "name": "stomach",
+      "directions": 4
+    },
+    {
+      "name": "split",
+      "directions": 4
+    },
+    {
+      "name": "forearms",
+      "directions": 4
+    },
+    {
+      "name": "forearms_fade",
+      "directions": 4
+    },
+    {
+      "name": "big_scales",
+      "directions": 4
+    },
+    {
+      "name": "l_shoulder",
+      "directions": 4
+    },
+    {
+      "name": "r_shoulder",
+      "directions": 4
+    },
+    {
+      "name": "l_forearm",
+      "directions": 4
+    },
+    {
+      "name": "r_forearm",
+      "directions": 4
+    },
+    {
+      "name": "grime_overlay",
+      "directions": 4
+    }
+  ]
+}
