@@ -5811,3 +5811,12 @@ Entries:
   id: 2690
   time: '2026-10-24T19:27:21.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/760
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed IPCs sometimes having weakened damage modifiers when they lose
+        battery permanently.
+  id: 2691
+  time: '2026-10-26T20:08:35.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/765
