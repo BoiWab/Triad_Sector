@@ -75,6 +75,166 @@
   - sprite: _Triad/Mobs/Customization/vox_parts.rsi
     state: double_pointy_head
 
+- type: marking
+  id: VoxHeadAgain
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: head_again
+
+- type: marking
+  id: VoxEyeBags
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: eye_bags
+
+- type: marking
+  id: VoxLEyeDot
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: l_eye_dot
+
+- type: marking
+  id: VoxLEyeDot2
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: l_eye_dot_2
+
+- type: marking
+  id: VoxLEyeDot3
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: l_eye_dot_3
+
+- type: marking
+  id: VoxREyeDot
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: r_eye_dot
+
+- type: marking
+  id: VoxREyeDot2
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: r_eye_dot_2
+
+- type: marking
+  id: VoxREyeDot3
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: r_eye_dot_3
+
+- type: marking
+  id: VoxBigEyes
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: big_eyes
+
+- type: marking
+  id: VoxBrowline
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: browline
+
+- type: marking
+  id: VoxEyeShine
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: eye_shine
+
+- type: marking
+  id: VoxLEyeShine
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: l_eye_shine
+
+- type: marking
+  id: VoxREyeShine
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: r_eye_shine
+
+- type: marking
+  id: VoxLEyeCover
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: l_eye_cover
+
+- type: marking
+  id: VoxREyeCover
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: r_eye_cover
+
+- type: marking
+  id: VoxHorizontalScar
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: horizontal_scar
+
 # -- Snout
 
 - type: marking
@@ -162,6 +322,86 @@
   sprites:
   - sprite: _Triad/Mobs/Customization/vox_parts.rsi
     state: probe
+
+- type: marking
+  id: VoxBeakConure
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: beak_conure
+
+- type: marking
+  id: VoxBeakDuck
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: beak_duck
+
+- type: marking
+  id: VoxBeakKakapo
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: beak_kakapo
+
+- type: marking
+  id: VoxBeakGreatCurve
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: beak_the_great_curve
+
+- type: marking
+  id: VoxBeakVulturish
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: beak_vulturish
+
+- type: marking
+  id: VoxBeakWideVulturish
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: beak_wide_vulturish
+
+- type: marking
+  id: VoxSchnozzcannon
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: schnozzcannon
+
+- type: marking
+  id: VoxFaceCover
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: false
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: _Triad/Mobs/Customization/vox_parts.rsi
+    state: face_cover
 
 # -- Chest
 
