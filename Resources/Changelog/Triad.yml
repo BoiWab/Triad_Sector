@@ -5820,3 +5820,10 @@ Entries:
   id: 2691
   time: '2026-10-26T20:08:35.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/765
+- author: nathan736
+  changes:
+    - type: Tweak
+      message: You can now emote across holo pads
+  id: 2692
+  time: '2026-10-28T18:47:20.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/693
