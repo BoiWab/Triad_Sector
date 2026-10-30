@@ -47,8 +47,7 @@
   - type: TimedDespawn
     lifetime: 14 # despawn it one second later than the wall itself for tyler1 scream esque fadeout
   - type: EmitSoundOnSpawn
-    volume: 3
-    range: 30
-    enabled: true
     sound:
       path: /Audio/_Triad/Magic/barrier.ogg
+      params:
+        volume: 3
