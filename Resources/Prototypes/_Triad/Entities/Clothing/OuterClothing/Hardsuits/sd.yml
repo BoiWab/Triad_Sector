@@ -15,7 +15,7 @@
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSdHeavy
       helmetcover: ClothingHeadHelmetCoverBlock
-      helmetattachment: ClothingHeadHelmetAttachmentBlock
+      #helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: ExplosionResistance
     damageCoefficient: 0.3
   - type: FireProtection
