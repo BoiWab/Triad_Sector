@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: [ClothingOuterHardsuitSyndieElite, EnergyShieldClothing, BaseFactionGearSDT3, BaseClass2AShipContraband]
+  parent: [ClothingOuterHardsuitSyndieElite, EnergyShieldClothing, BaseFactionGearSDT3, BaseClass2ShipContraband]
   id: ClothingOuterHardsuitSdHeavy
   name: K-3000 "Dyson" heavy nanomesh exoskeleton
   description: A bleeding-edge Exoskeleton featuring an overclocked shield projection matrix and a symbiotic nanite swarm. The nanites can be projected into a static barrier. Should anything pierce the shield, the suit is layered with heat-shielding tiles sourced from solar diving platforms.
