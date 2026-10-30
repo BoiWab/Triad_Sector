@@ -7,7 +7,7 @@
     icon:
       sprite: _Triad/Structure/Holo/forcewall.rsi
       state: barrier
-    ItemIconStyle: BigAction
+    itemIconStyle: BigAction
     useDelay: 15
   - type: InstantAction
     event: !type:InstantSpawnSpellEvent
