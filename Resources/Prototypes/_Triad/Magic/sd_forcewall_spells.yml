@@ -1,4 +1,5 @@
 ﻿- type: entity
+  parent: BaseAction
   id: ActionForceWallDyson
   name: Barrier Swarm
   description: Expel some of your suit's nanites to form a stationary barrier against ranged attacks.
